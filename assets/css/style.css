@@ -297,12 +297,15 @@ textarea{
     }
     .productos_container_1{
         flex-direction: column;
+        align-items: flex-start;
     }
     .productos_container_2{
         flex-direction: column-reverse;
+        align-items: flex-start;
     }
     .productos_container_3{
         flex-direction: column;
+        align-items: flex-start;
     }
     .productos_container img{
         width: 100%;
@@ -326,4 +329,12 @@ textarea{
     .formulario{
         width: 300px;
     }
+    .conoce{
+        height: 170px;
+    }
+    .productos_container img{
+        width: 390px;
+        height: 300px;
+    }
+    
 }
