@@ -1,0 +1,18 @@
+.conoce{
+    display: flex;
+    height: 526px;
+    width: 100px;
+}
+.productos_container article{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.productos_container img{
+    width: 800px;
+    height: 450px;
+    object-fit: cover;
+}
+.productos_container p{
+    padding: 10px 50px;
+}
