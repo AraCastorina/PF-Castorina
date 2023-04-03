@@ -30,9 +30,5 @@ textarea{
     height: 100px;
 }
 .parrafo-contacto{
-    text-align: center;
-    font-size: 20px;
-    padding: 20px;
-    background-color: rgb(198, 195, 195);
-    color: black;
+    @extend .parrafo-trabaja
 }

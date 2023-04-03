@@ -16,3 +16,9 @@
 .productos_container p{
     padding: 10px 50px;
 }
+.parrafo-productos{
+    @extend .parrafo-trabaja
+}
+.descripcion-productos{
+    @extend .descripcion-locales
+}

@@ -147,8 +147,17 @@ footer{
         object-fit: cover;
     }
     .navbar-toggler-icon{
-        height: 60px;
-        width: 60px;
+        height: 40px;
+        width: 50px;
+    }
+    .navbar-brand img{
+        height: 90px;
+    }
+    .navbar{
+        height: 120px;
+    }
+    .navbar-nav{
+        background-color: black;
     }
     .form{
         width: 400px;
@@ -162,5 +171,8 @@ footer{
     .productos_container img{
         width: 390px;
         height: 300px;
+    }
+    .carousel-item img{
+        height: 500px;
     }
 }

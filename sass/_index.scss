@@ -7,12 +7,6 @@
         object-fit: cover;
     }
 }
-.index-2{
-    text-align: center;
-    img{
-        width: 49%;
-    }
-}
 .section-index{
     display: flex;
     justify-content: center;
@@ -53,4 +47,10 @@
     .container-index-4{
         @extend .container-index-2
     }
+}
+
+.carousel-item img{
+    height: 630px;
+    object-fit: cover;
+    padding: 10px 0px;
 }
