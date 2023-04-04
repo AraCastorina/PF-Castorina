@@ -1,21 +1,39 @@
-.conoce{
-    display: flex;
-    height: 526px;
-    width: 100px;
-}
-.productos_container article{
-    display: flex;
-    padding: 20px;
-    align-items: center;
-}
-.productos_container img{
-    width: 800px;
-    height: 450px;
-    object-fit: cover;
-}
-.productos_container p{
-    padding: 10px 50px;
-}
 .parrafo-productos{
     @extend .parrafo-trabaja
+}
+.accordion-h2{
+    text-align: center;
+    margin: 60px;
+    color: #edba8f;
+}
+.accordion-button{
+    background-color: rgb(72, 71, 71);
+}
+.accordion-button:not(.collapsed){
+    color: black;
+    background-color: #d8b497;
+}
+.accordion{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.accordion p{
+    color: white;
+}
+.card-body{
+    background-color: #edba8f;
+    display: flex;
+    justify-content: center;
+}
+.card-text{
+    color: black;
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    margin: 75px;
+}
+.card img{
+    height: 389.03px;
 }

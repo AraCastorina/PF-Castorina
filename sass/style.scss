@@ -72,7 +72,7 @@ footer{
     grid-area: footer;
     .pie-pagina{
         padding: 10px;
-        background-color: rgb(198, 195, 195) ;
+        background-color: #edba8f ;
         color: black;
         margin: 50px auto;
         text-align: center;
@@ -91,6 +91,7 @@ footer{
 @media only screen and (max-width: 576px){
     header{
         position: sticky;
+        z-index: 1
     }
     .nav-link{
         text-align: center;
@@ -176,5 +177,14 @@ footer{
     }
     .carousel-item img{
         height: 500px;
+    }
+    .accordion{
+        width: 100%;
+    }
+    .card{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 50px;
     }
 }
