@@ -10,17 +10,10 @@
      object-fit: cover;
 }
 
-.index-2 {
-  text-align: center;
-}
-.index-2 img {
-  width: 49%;
-}
-
 .section-index {
   display: flex;
   justify-content: center;
-  margin: 0px 10px;
+  margin: 50px 10px;
 }
 .section-index img {
   width: 100%;
@@ -33,6 +26,7 @@
   font-size: 1.4rem;
   margin: 1px;
   text-align: center;
+  color: #edba8f;
 }
 .section-index .container-index-1 {
   border-radius: 20px;
@@ -54,10 +48,29 @@
   margin: 20px;
 }
 .carousel-item img {
-  height: 630px;
+  height: 480px;
   -o-object-fit: cover;
      object-fit: cover;
   padding: 10px 0px;
+}
+
+.historia h2 {
+  text-align: center;
+  font-size: 45px;
+  color: #edba8f;
+  padding: 30px;
+}
+
+.historia p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.historia {
+  background-color: rgb(72, 71, 71);
+  padding: 40px;
+  margin: 30px;
+  border-radius: 20px;
 }
 
 .locales {
@@ -82,6 +95,7 @@
 .locales p {
   padding: 30px;
   font-size: 30px;
+  color: #edba8f;
 }
 
 .locales h3 {
@@ -247,7 +261,6 @@ main {
 
 /*header con nestign*/
 header {
-  position: sticky;
   top: 0;
   width: 100%;
   grid-area: header;
@@ -287,6 +300,9 @@ footer .redes img {
 /*MEDIA QUERIES*/
 /*Mobile*/
 @media only screen and (max-width: 576px) {
+  header {
+    position: sticky;
+  }
   .nav-link {
     text-align: center;
     padding: 10px;
